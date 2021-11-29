@@ -1,1 +1,31 @@
-
+.Dictionary section {
+  margin: 20px 0;
+  padding: 12px;
+  background-color: whitesmoke;
+  border: 2px solid antiquewhite;
+  box-shadow: 0 10px 20px rgba(0 0 0 /10%);
+  border-radius: 5px;
+}
+.Dictionary input {
+  width: 100%;
+  padding: 6px 5px;
+  border-radius: 5px;
+  color: #333;
+  border: 3px solid antiquewhite;
+}
+.Dictionary .what {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.Dictionary .search {
+  margin: 20px 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: whitesmoke;
+  border: 2px solid antiquewhite;
+  border-radius: 5px;
+}
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+}

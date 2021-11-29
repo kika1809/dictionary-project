@@ -1,7 +1,13 @@
+.Meaning {
+  font-size: 16px;
+}
 .Meaning h2 {
   font-size: 24px;
+  line-height: 1.5;
   margin-bottom: 2px;
 }
-.Meaning p {
-  font-size: 16px;
+.Meaning .example {
+  color: #70757a;
+  font-style: italic;
+  margin-top: 10px;
 }

@@ -8,6 +8,7 @@ export default function Results(props) {
     if (props.inform) {
         return (
             <div className="Results">
+                <section>
                 <h1>{props.inform.word}</h1>
                 {props.inform.phonetics.map(function (phonetics, index) {
                     return (
@@ -16,11 +17,12 @@ export default function Results(props) {
                         </div>
                     );
                 })}
+                </section>
                 {props.inform.meanings.map(function (meaning, index) {
                     return (
-                        <div key={index}>
+                        <section key={index}>
                            <Meaning meaning={meaning} />
-                        </div>
+                        </section>
                     );
                 })}
             
