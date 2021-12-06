@@ -9,7 +9,11 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Coded by Kristina K</footer>
+        <footer>
+        <p>This project was coded by Kristina Kocur and it is open-sourced on <a href="https://github.com/kika1809/dictionary-project" target="_blank" 
+            rel="noopener noreferrer">GitHub</a>, hosted on <a href="https://naughty-lamport-9a69c7.netlify.app/" target="_blank" 
+            rel="noopener noreferrer">Netlify</a>.</p>
+      </footer>
       </div>
     </div>
   );

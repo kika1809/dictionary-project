@@ -11,3 +11,11 @@
   font-size: 14px;
   margin: 30px 0;
 }
+.App a {
+  color: rgb(253, 167, 54);
+  text-decoration: none;
+}
+.App a:hover {
+  color: rgb(253, 167, 54);
+  text-decoration: underline;
+}
